@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Dr Health Cart</title>
+      <link rel="icon" sizes="192x192" href="images/logo.jpeg">
+      <meta name="theme-color" content="#7C216F" />
+    
+    <!--Google font integration for nestimatic head-->
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">  <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="manifest" href="manifest.json">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+  
+  <body style="background:whitesmoke">
+      
+      <div class="headerlogo">
+
+
+        
+          <center>
+            <p >
+                Dr Health Cart
+            </p>
+              
+          </center>
+
+        </div>
+    
+    <br><br>
+    
+    <center>
+        <img class="drlogo" src="images/logo.jpeg">
+        <br> <br>  
+      
+    </center>
+   
+    <div class="tiles">
+      
+      <center>
+       <a href="hairfall">
+            <img src="images/hairfall.jpg">
+          </a>
+          <a href="piles">
+              <img src="images/piles.jpg">
+            </a>
+            <a href="allergy">
+                <img src="images/allergy.jpg">
+              </a>
+    
+  
+              <a href="acidity">
+                  <img src="images/acidity.jpg">
+                </a>
+ 
+                <a href="diabetes">
+                    <img src="images/diabetes.jpg">
+                  </a>
+            
+        <a href="obesity">
+            <img src="images/obesity.jpg">
+          </a>
+          <a href="depression">
+              <img src="images/depression.jpg">
+            </a>
+            <a href="thyroid">
+                <img src="images/thyroid.jpg">
+              </a>
+       
+    
+              <a href="sexual_problem">
+                  <img src="images/prematureejac.jpg">
+                </a>
+         
+              
+                <a href="pimples">
+                    <img src="images/pimples.jpg">
+                  </a>
+     
+                  <a href="psoriasis">
+                      <img src="images/psoriasis.jpg">
+                    </a>
+         
+  
+                  
+                    <a href="pcod">
+                        <img src="images/pcod.jpg">
+                      </a>
+           
+                      <a href="ibs">
+                          <img src="images/ibs.jpg">
+                        </a>
+               
+
+                         
+                        <a href="constipation">
+                            <img src="images/constipation.jpg">
+                          </a>
+                          <a href="spondylosis">
+                              <img src="images/spondylosis.jpg">
+                            </a> 
+    
+    </center>
+         
+    </div>
+
+    <center>     
+       <br> <br>  
+<a href="other_disease">
+    <button class="otherdis"> <b>   Click here    <br> for other disease </b> </button>
+
+
+</a>
+
+
+      
+    </center>
+   
+      <br><br><br>
+
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-12 col-md-6">
+          <h6>About Us</h6>
+          <p class="text-justify">
+            drhealthcart.com is medical website helping patient to treat their
+            diseases which is Completely based on Ayurved. We provide details
+            such as Symptoms, Home Remedies along with medical advice about diseases 
+            such as piles,hairfall etc.
+          </p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links"> <br>
+            <li><a href="/privacy_policy">Privacy Policy</a></li> <br>
+            <li><a href="/terms_and_conditions">Terms And Conditions</a></li>
+          </ul>
+        </div>
+          
+        <hr>
+          <center>
+              <p class="copyright-text"> Copyright &copy; 2019 <br> All Rights are Reserved by 
+                <a href="#">Dr Health Cart</a>.
+              </p>
+      
+          </center>
+      </div>
+    </div><br>
+</footer>
+
+<div class="cookie-bar" id="hidecookie">
+  <center>
+      <button onclick="hidecookie()"> Accept </button>
+      <p> This website uses cookies, <a href="/terms_and_conditions">learn more</a> </p> 
+  </center>
+</div>
+
+<script>
+
+var cookiestore =  localStorage.getItem("cookie");  
+if (cookiestore == "showed")
+{
+  document.getElementById("hidecookie").style.display="none";
+
+}
+  function hidecookie()
+  {
+    document.getElementById("hidecookie").style.display="none";
+    localStorage.setItem("cookie","showed");  
+  }
+</script>
+
+<!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
